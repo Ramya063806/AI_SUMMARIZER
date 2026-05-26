@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-content-summarizer-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false

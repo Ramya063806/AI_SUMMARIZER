@@ -1,0 +1,13 @@
+node_modules
+docs
+.git
+.gitignore
+_.md
+!README.md
+.env
+.env.local
+.env._.local
+.DS_Store
+frontend/dist
+frontend/node_modules
+backend/node_modules
